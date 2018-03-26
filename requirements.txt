@@ -1,0 +1,6 @@
+Flask==0.12.2
+pandas==0.22.0
+geocoder==1.38.0
+googlemaps==2.5.1
+numpy==1.14.0
+scikit_learn==0.19.1
