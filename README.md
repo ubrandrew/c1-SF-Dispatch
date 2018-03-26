@@ -2,8 +2,8 @@
 Submission for Capital One Software Engineering Summit
 The task was to use a given dataset to realize and display trends in San Francisco's Fire and Police department dispatches.
 
-Challenge: https://www.mindsumo.com/contests/sfpd-dispatch
-Deployed on Heroku: https://gentle-refuge-12827.herokuapp.com/
+* Challenge: https://www.mindsumo.com/contests/sfpd-dispatch/
+* Deployed on Heroku: https://c1-dispatch-predict.herokuapp.com/
 
 ## Authors
 * **Andrew Li** - [GitHub](https://github.com/ubrandrew)
