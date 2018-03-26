@@ -54,7 +54,6 @@ def predict():
                 loc_arr = location_input.split(', ')
                 lat = loc_arr[0]
                 lon = loc_arr[1]
-                print("Latitude and Longitude: " + str(lat) + ", " + str(lon))
 
             except IndexError as e:
                 flash("Something went wrong! Check the format of the address and try to provide as much information as possible. If entering coordinates, make sure each coordinate is separated by a comma and a space.")
@@ -65,7 +64,6 @@ def predict():
             if (int(h) > 23) or (int(m) > 59) or (int(float(s)) > 59): #checks for valid input (23:59:59 max time)
                 raise Exception('Invalid time entered')
             time = int(h) * 3600 + int(m) * 60 + int(float(s))
-            print(time)
         except Exception as e:
             flash("Something went wrong! Make sure the time is entered as a 24 hour time in the format hh:mm:ss.")
 
